@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  dev-assistant:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: appwrite-ai-dev-assistant
+    ports:
+      - "1414:1414"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data  
+      - ./app/logs:/app/app/logs
+    restart: unless-stopped

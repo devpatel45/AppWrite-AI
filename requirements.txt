@@ -1,0 +1,16 @@
+langchain==0.3.25
+langchain-chroma==0.2.4
+langchain-community==0.3.24
+langchain-core==0.3.68
+langchain-groq==0.3.2
+langchain-huggingface==0.3.0
+langchain-text-splitters==0.3.8
+langgraph==0.5.1
+langgraph-checkpoint==2.1.0
+langgraph-prebuilt==0.5.2
+langgraph-sdk==0.1.72
+streamlit==1.39.0
+python-dotenv==1.0.1
+tensorflow==2.19.0
+sentence-transformers
+tf-keras

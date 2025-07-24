@@ -1,0 +1,4 @@
+[2025-07-23 14:05:52,244] INFO in timing.py:wrapper -> rag_chain_lmt took 53.80s
+[2025-07-23 14:14:38,221] INFO in timing.py:wrapper -> rag_chain_lmt took 5.22s
+[2025-07-23 14:16:08,085] INFO in timing.py:wrapper -> rag_chain took 28.59s
+[2025-07-23 14:17:26,980] INFO in timing.py:wrapper -> code_gen_chain took 5.93s
