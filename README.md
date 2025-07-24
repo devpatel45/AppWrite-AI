@@ -118,6 +118,7 @@ appwrite-ai-dev-assistant/
 ├── tests/                   # Unit tests
 ├── Dockerfile
 ├── docker-compose.yml
+├── .env
 └── README.md
 ```
 
