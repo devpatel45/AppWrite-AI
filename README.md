@@ -91,6 +91,27 @@ python app/ingestion/ingest_docs.py
 
 ---
 
+## 🐳 Docker
+
+### Pull Docker images
+
+```bash
+# For x86 machines
+docker pull devpatelml/ai-project-repo:latest
+
+# For ARM-based machines (e.g., Apple Silicon/M1/M2)
+docker pull devpatelml/appwrite-ai-dev-assistant:arm
+```
+
+### Run Docker container
+
+```bash
+# Example: run with required environment variables
+docker run -it -p 1414:1414   -e GROQ_API_KEY="your_groq_key_here"   -e TF_ENABLE_ONEDNN_OPTS=0   -e TF_CPP_MIN_LOG_LEVEL=3   devpatelml/appwrite-ai-dev-assistant:arm
+```
+
+---
+
 ## 🧪 Running Tests
 
 ```bash
